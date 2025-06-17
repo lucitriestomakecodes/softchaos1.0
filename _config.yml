@@ -1,2 +1,5 @@
 baseurl: "/softchaos1.0"
 url: "https://lucitriestomakecodes.github.io"
+theme: minima
+plugins:
+  - jekyll-feed

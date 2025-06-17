@@ -8,7 +8,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
 
   <style>
-    /* zkopíruj sem CSS ze své hlavní stránky */
     body {
       margin: 0;
       background: #081120;
@@ -60,7 +59,8 @@
       border-left: 4px solid transparent;
       transition: border-color 0.3s ease;
     }
-    nav ul li a:hover {
+    nav ul li a:hover,
+    nav ul li a.active {
       border-left: 4px solid #a0f;
       color: #a0f;
       text-shadow: 0 0 6px #a0f;
@@ -87,17 +87,16 @@
       <h1>SoftChaos</h1>
       <nav>
         <ul>
-          <li><a href="../#">Home</a></li>
-          <li><a href="./">Stories</a></li>
+          <li><a href="../" >Home</a></li>
+          <li><a href="./" class="active">Stories</a></li>
           <!-- další odkazy -->
         </ul>
       </nav>
     </aside>
     <main class="content">
       <h2>Stories</h2>
-      <p>Tady bude obsah pro stories...</p>
+      <p>Tady bude obsah sekce Stories. Můžeš sem dát své příběhy, články, cokoli chceš.</p>
     </main>
   </div>
 </body>
 </html>
-

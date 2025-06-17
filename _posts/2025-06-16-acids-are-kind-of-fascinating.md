@@ -3,7 +3,10 @@ layout: post
 title: "Acids are kind of fascinating"
 date: 2025-06-16
 categories: stories
+slug: "2025-06-16-acids-are-kind-of-fascinating.md"
 ---
+
+
 
 Acids are kind of fascinating.
 Not just because they can melt your skin or launch you into the astral plane (looking at you, LSD… technically still an acid, which is kind of a neat crossover).

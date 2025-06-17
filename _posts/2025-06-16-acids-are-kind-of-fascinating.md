@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Acids Are Kind of Fascinating"
+title: "Acids are kind of fascinating"
 date: 2025-06-16
 categories: stories
 ---
+
 Acids are kind of fascinating.
 Not just because they can melt your skin or launch you into the astral plane (looking at you, LSD… technically still an acid, which is kind of a neat crossover).
 At their core, acids are just substances that give. Specifically, they donate a proton… a lonely hydrogen ion, H+. Just a bare positive charge, floating around like a tiny act of chaos. And that little act changes everything: it shifts pH, breaks bonds, moves electrons. It transforms the structure of things.

@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SoftChaos - Pixel Dark Neon</title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      background: #081120;
+      color: #d0d0d0;
+      font-family: 'Fira Code', monospace;
+    }
+    a {
+      color: #0fa;
+      text-decoration: none;
+      transition: color 0.3s ease, text-shadow 0.3s ease;
+    }
+    a:hover {
+      color: #a0f;
+      text-shadow: 0 0 8px #a0f;
+    }
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+    aside.sidebar {
+      background: #0f131f;
+      padding: 20px;
+      width: 220px;
+      box-shadow: 0 0 10px rgba(160, 15, 255, 0.4);
+      border-radius: 6px 0 0 6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    aside.sidebar h1 {
+      color: #0fa;
+      margin-bottom: 24px;
+      font-size: 24px;
+      letter-spacing: 1.5px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      margin-bottom: 16px;
+    }
+    nav ul li a {
+      font-weight: bold;
+      font-size: 18px;
+      display: inline-block;
+      padding: 4px 0;
+      border-left: 4px solid transparent;
+      transition: border-color 0.3s ease;
+    }
+    nav ul li a:hover {
+      border-left: 4px solid #a0f;
+      color: #a0f;
+      text-shadow: 0 0 6px #a0f;
+    }
+    main.content {
+      flex-grow: 1;
+      padding: 40px;
+    }
+    main.content h2 {
+      color: #0fa;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    main.content p {
+      line-height: 1.6;
+      font-size: 18px;
+      max-width: 600px;
+    }
+    audio {
+      width: 100%;
+      margin-top: 20px;
+      outline: none;
+      filter: drop-shadow(0 0 6px #a0f);
+      border-radius: 6px;
+      background: #131926;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h1><a href="#" style="color:#0fa; text-decoration:none;">SoftChaos</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="/softchaos1.0/stories/">Stories</a></li>
+          <li><a href="#">Music</a></li>
+        </ul>
+      </nav>
+      <audio controls autoplay loop>
+        <source src="music.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </aside>
+    <main class="content">
+      <h2>Hello, ahoj, szia, dobrodošli!</h2>
+      <p>
+        This is where I unload everything - deep philosophy, dark humor, rant sessions, and those moments when life just makes you think about what really holds us together. No filters, no bullshit, just life in its messy, beautiful SOFT CHAOS.
+      </p>
+    </main>
+  </div>
+</body>
+</html>
